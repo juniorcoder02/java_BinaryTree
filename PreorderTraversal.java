@@ -47,7 +47,7 @@ public class PreorderTraversal {
          */
         public static void preorderTraversal(Node root) {
             if (root == null) {
-                System.out.print("-1 "); // Print -1 for null nodes (for clarity)
+                System.out.print("null "); // Print -1 for null nodes (for clarity)
                 return;
             }
 
